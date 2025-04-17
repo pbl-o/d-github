@@ -1,0 +1,62 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Clases multi-usos */
+
+.tenue{
+  opacity: 0.85;
+}
+
+.super-tenue{
+  opacity: 0.45;
+}
+
+.aireado{
+  letter-spacing: 16px;
+}
+
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/vidrio2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+
+}
+
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
+
+/* Footer */
+
+footer{
+  background-image: url("../img/foto-bulb.png");
+  opacity: 0.8;
+}
